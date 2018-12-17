@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <functions>
+        <function>
+            <name>BRAZILIAN CPF</name>
+            <description>BRAZILIAN CPF - Generates valid Brazilian CPF</description>
+            <parm1># Digits to keep (0 to 9)?</parm1>
+            <parm2>Use Separators (Y/N)?</parm2>
+            <char>true</char>
+            <number>true</number>
+            <date>false</date>
+            <char_date>false</char_date>
+            <custom>true</custom>
+            <class_name>com.broadcom.utils.CPF</class_name>
+        </function>
+        <function>
+            <name>BRAZILIAN CNPJ</name>
+            <description>BRAZILIAN CNPJ - Generates valid Brazilian CNPJ for headquarter offices only</description>
+            <parm1># Digits to keep (0 to 8)?</parm1>
+            <parm2>Use Separators (Y/N)?</parm2>
+            <char>true</char>
+            <number>true</number>
+            <date>false</date>
+            <char_date>false</char_date>
+            <custom>true</custom>
+            <class_name>com.broadcom.utils.CNPJ</class_name>
+        </function>
+        <function>
+            <name>BRAZILIAN RG</name>
+            <description>BRAZILIAN RG - Generates valid Brazilian RG</description>
+            <parm1># Digits to keep (0 to 8)?</parm1>
+            <parm2>Use Separators (Y/N)?</parm2>
+            <char>true</char>
+            <number>true</number>
+            <date>false</date>
+            <char_date>false</char_date>
+            <custom>true</custom>
+            <class_name>com.broadcom.utils.RG</class_name>
+        </function>
+        <function>
+            <name>BRAZILIAN CNH</name>
+            <description>BRAZILIAN CNH - Generates valid Brazilian CNH</description>
+            <parm1># Digits to keep (0 to 9)?</parm1>
+            <parm2>Use Separators (Y/N)?</parm2>
+            <char>true</char>
+            <number>true</number>
+            <date>false</date>
+            <char_date>false</char_date>
+            <custom>true</custom>
+            <class_name>com.broadcom.utils.CNH</class_name>
+        </function>
+        <function>
+            <name>BRAZILIAN TITULO ELEITOR</name>
+            <description>BRAZILIAN TITULO ELEITOR - Generates valid Brazilian Titulo de Eleitor</description>
+            <parm1># Digits to keep (0 to 8)?</parm1>
+            <parm2>Use Separators (Y/N)?</parm2>
+            <char>true</char>
+            <number>true</number>
+            <date>false</date>
+            <char_date>false</char_date>
+            <custom>true</custom>
+            <class_name>com.broadcom.utils.Titulo</class_name>
+        </function>
+    </functions>
+</configuration>
